@@ -5,10 +5,10 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-english_api_key = "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"
+english_api_key = "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"
 english_model_name = "davinci:ft-personal-2023-09-01-13-31-52"
 
-korean_api_key = "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"
+korean_api_key = "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"
 korean_model_name = "davinci:ft-personal-2023-09-02-15-55-41"
 
 conversation_history = []
